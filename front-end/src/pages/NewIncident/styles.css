@@ -1,0 +1,77 @@
+.newIncident-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newIncident-container .content {
+    width: 100%;
+    padding: 96px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newIncident-container section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.newIncident-container section h1 {
+    font-size: 32px;
+    margin: 64px 0 32px;
+}
+
+.newIncident-container section p {
+    line-height: 32px;
+    color: #737380;
+    font-size: 18px;
+}
+
+.newIncident-container form {
+    width: 100%;
+    max-width: 450px;
+
+}
+
+.newIncident-container form input, textarea {
+    margin-top: 8px;
+}
+
+.newIncident-container form a {
+    width: 50%;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    color:#e02041;
+    font-weight: bold;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: opacity 0.2s;
+}
+
+.newIncident-container form a:hover{
+    opacity: 0.8;
+}
+
+.newIncident-container form .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newIncident-container form .button-group a + button {
+    margin-left: 8px;
+}

@@ -31,7 +31,7 @@ module.exports = {
         //o ID vai ser o que a ONG vai usar para se conectar na aplicação
         },
 
-    // Deletar o própria cadastro
+    // Deletar o próprio cadastro
     async delete(request, response) {
         const { id } = request.params;
         const ong_id = request.headers.authorization;
@@ -47,7 +47,5 @@ module.exports = {
         }
 
         await connection('ongs').where('id', id).delete();
-
-        return response.send('deleted');
     }
 };

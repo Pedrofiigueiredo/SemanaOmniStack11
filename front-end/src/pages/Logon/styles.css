@@ -1,0 +1,26 @@
+.logon-container {
+    width: 100%;
+    max-width: 1120px; /* Para resposividade */
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex; /* Posso usar flex-direction para deixar na horizontal tbm*/
+    align-items: center; /* alinha verticalmente */
+    justify-content: space-between; /* alinha horizontalmente */
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px; /* Para resposividade */
+    margin-right: 30px;
+}
+
+.logon-container section.form form{
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
